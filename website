@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Toko Online</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="                       
+                <li><a href="#galeri">Galeri</a></li>
+                <li><a href="                        
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <h1>Selamat Datang di Toko Online Kami!</h1>
+        <p>Kami menyediakan berbagai produk dengan kualitas terbaik.</p>
+    </section>
+    
+    <section id="galeri">
+        <h1>Galeri Produk</h1>
+        <div class="galeri">
+            <div class="foto">
+                <img src="foto1.jpg" alt="Foto 1">
+                <p>Produk 1</p>
+            </div>
+            <div class="foto">
+                <img src="foto2.jpg" alt="Foto 2">
+                <p>Produk 2</p>
+            </div>
+            <div class="foto">
+                <img src="foto3.jpg" alt="Foto 3">
+                <p>Produk 3</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="kontak">
+        <h1>Kontak Kami</h1>
+        <form>
+            <label>Nama:</label>
+            <input type="text" name="nama">
+            <label>Email:</label>
+            <input type="email" name="email">
+            <label>Pesan:</label>
+            <textarea name="pesan"></textarea>
+            <button>Kirim</button>
+        </form>
+    </section>
+    
+    <script src="script.js"></script>
+</body>
+</html>
